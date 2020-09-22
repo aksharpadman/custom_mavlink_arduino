@@ -102,7 +102,7 @@
 #include <uORB/topics/vehicle_status.h>
 #include <uORB/topics/vehicle_trajectory_bezier.h>
 #include <uORB/topics/vehicle_trajectory_waypoint.h>
-#include <uORB/topics/four_floats.h>
+//#include <uORB/topics/four_floats.h>
 class Mavlink;
 
 class MavlinkReceiver : public ModuleParams
