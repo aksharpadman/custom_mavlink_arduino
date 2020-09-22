@@ -7,13 +7,13 @@ The mavlink folder in the repo need to be placed inside the libraries in the Ard
 
 A specific mavlink header file for sending the four floats is created using the python script mavgenerate.py by making changes in the common.xml file. The mavlink header file is named  *mavlink_msg_four_floats.h* .
 
-The four_floats foleder contains the Arduino code which uses the *mavlink_msg_four_floats* to send the four floats to px4.
+The four_floats folder contains the Arduino code which uses the *mavlink_msg_four_floats* to send the four floats to px4.
 
 ### PX4 Firmware
 
 The *modules_mavlink* has two files 
-	1) mavlink_reciever.h
-	2? mavlink_reciever.cpp
+	- mavlink_reciever.h
+	- mavlink_reciever.cpp
 These files need to replace the files inside *Firmware/src/modules/mavlink*. 
 
 The file v2.0_mavlink should replace the contents inside *Firmware/mavlink/include/mavlink/v2.0/*
