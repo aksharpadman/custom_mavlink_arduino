@@ -11,9 +11,9 @@ The four_floats folder contains the Arduino code which uses the *mavlink_msg_fou
 
 ### PX4 Firmware
 
-The *modules_mavlink* has two files 
-	- mavlink_reciever.h
-	- mavlink_reciever.cpp
+The *modules_mavlink* has two files.
+	- *mavlink_reciever.h*
+	- *mavlink_reciever.cpp*
 These files need to replace the files inside *Firmware/src/modules/mavlink*. 
 
 The file v2.0_mavlink should replace the contents inside *Firmware/mavlink/include/mavlink/v2.0/*
